@@ -1,0 +1,11 @@
+.text-input{
+    width: 200px;
+    background-color: bisque;
+    color: blue;
+    height: 45px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}

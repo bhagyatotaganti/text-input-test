@@ -7,11 +7,13 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
+require("./TextInput.css");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const Button = props => {
+const TextInput = props => {
   return /*#__PURE__*/_react.default.createElement("button", {
-    className: "btn btn--".concat(props.kind, " CTA"),
+    className: "text-input",
     "data-id": props.id,
     type: props.type,
     name: props.name,
@@ -21,5 +23,5 @@ const Button = props => {
   }, /*#__PURE__*/_react.default.createElement("h4", null, props.label));
 };
 
-var _default = Button;
+var _default = TextInput;
 exports.default = _default;
