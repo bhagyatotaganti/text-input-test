@@ -8,7 +8,7 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": ["dist","README.md"],
-  "repository": {"type": "git","url": "git+https://github.com/jawblia/npm-test.git"},
+  "repository": {"type": "git","url": "git+https://github.com/bhagyatotaganti/text-input-test.git"},
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.4",
